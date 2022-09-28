@@ -1,0 +1,67 @@
+.width{
+    width: 70%;
+}
+
+.inputGroup label{
+    padding-bottom: 5px;
+    font-weight: 500;
+    color: rgb(62,23,95);
+    font-size: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+.inputGroup input{
+    border: none;
+    border-radius: 5px;
+    height: 41px;
+    padding-left: 20px;
+    min-width: 300px;
+    background-color: gainsboro;
+    color: #ab2265;
+    font-weight: bold;
+}
+.inputGroup input::placeholder{
+    border: none;
+    border-radius: 5px;
+    height: 41px;
+    padding-left: 20px;
+    min-width: 300px;
+    background-color: gainsboro;
+    color: #ab2265;
+    font-weight: bold;
+}
+.inputGroup input:focus{
+    outline: 0;
+}
+.inputGroup input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.inputGroup input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@media screen and (max-width:992px) {
+    .width{
+        width: 100%;
+    }
+}
+@media screen and (max-width:768px) {
+    .inputGroup label{
+        font-size: 16px;
+    }
+    .inputGroup input{
+        min-width: 200px;
+    }
+}
+@media screen and (max-width:568px) {
+    .inputGroup label{
+        font-size: 16px;
+    }
+    .inputGroup input{
+        min-width: 150px;
+    }
+}

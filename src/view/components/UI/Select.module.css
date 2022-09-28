@@ -1,0 +1,59 @@
+.custom-select{
+    margin: 0 !important;   
+    padding: 0 !important;
+
+}
+.custom-select select {
+    /* styling */
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background-color: white;
+    color: #000;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 0.5em 3.5em 0.5em 1em;
+    font-weight: 500;
+    height: 41px;
+
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width:230px;
+  }
+  
+  
+  /* arrows */
+  
+.custom-select select.classic {
+  background-image:
+  linear-gradient(45deg, transparent 50%, #BF1B66 50%),
+  linear-gradient(135deg,  #BF1B66 50%, transparent 50%),
+  linear-gradient(to right, white, white);
+background-position:
+  calc(100% - 20px) calc(1em + 2px),
+  calc(100% - 15px) calc(1em + 2px),
+  100% 0;
+background-size:
+  10px 5px,
+  5px 5px,
+  0.5em 0.5em;
+background-repeat: no-repeat;
+outline: none;
+  }
+  
+.custom-select select.classic:focus {
+    background-image:
+      linear-gradient(45deg, transparent 50%, #ca246f 50%),
+      linear-gradient(135deg,  #ca246f 50%, transparent 50%),
+      linear-gradient(to right, white, white);
+    background-position:
+      calc(100% - 20px) calc(1em + 2px),
+      calc(100% - 15px) calc(1em + 2px),
+      100% 0;
+    background-size:
+      10px 5px,
+      5px 5px,
+      0.5em 0.5em;
+    background-repeat: no-repeat;
+    outline: none;
+  }

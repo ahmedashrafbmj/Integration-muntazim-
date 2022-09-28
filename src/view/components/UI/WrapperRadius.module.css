@@ -1,0 +1,13 @@
+  
+.card{
+    padding: 1rem;
+    border-radius: 40px !important;
+
+}
+  
+@media (max-width:500px) {
+  .card {
+    padding: 0.8rem;
+    border-radius: 25px !important;
+  }
+}

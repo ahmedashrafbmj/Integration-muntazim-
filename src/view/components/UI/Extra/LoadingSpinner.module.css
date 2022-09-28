@@ -1,0 +1,25 @@
+.spinner {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+}
+.spinner:after {
+  content: ' ';
+  display: block;
+  width: 80%;
+  height:80%;
+  border-radius: 50%;
+  
+  border: 6px solid rgb(210, 172, 71);
+  border-color: linear-gradient(90deg, rgba(68,16,93,1) 0%, rgba(189,27,102,1) 100%);
+  border-color: rgba(68,16,93,1) transparent  rgba(189,27,102,1)  transparent;
+  animation: spinner 1.2s linear infinite;
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

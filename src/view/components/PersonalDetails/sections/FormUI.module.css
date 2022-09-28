@@ -1,0 +1,39 @@
+.formContainer{
+    background-color: #c8c4c4;
+    padding: 30px 0 40px 0 !important;
+
+}
+.heading{
+    color:#46115E;
+    font-weight: 500;
+    font-size: 22px;
+}
+.heading span{
+    font-weight: bolder;
+}
+
+.btn{
+    display: block;
+    border-radius: 30px;
+    padding:8px 42px;
+    border: none;
+    background-color: #BF1B66;
+    color:#fff ;
+    font-weight:600;
+    font-size:18px;
+    text-align: center !important;
+    margin: 10px auto 5px auto;
+    
+}
+.btn:hover{
+    font-size:19px;
+    transition: 1ms ease-in-out;
+}
+@media screen and (max-width:768px) {
+
+    .btn{
+        border-radius: 25px;
+        padding:8px 32px;
+        font-size:16px;
+    }
+}
